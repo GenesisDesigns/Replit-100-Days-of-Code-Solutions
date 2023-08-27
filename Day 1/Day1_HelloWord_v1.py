@@ -3,7 +3,7 @@
 
 print("Hello Replit")
 print("""
-Kevin
+Andy
 8/26/2023
 I am signing up for Replit's 100 days of python challenge!
 I will make sure to spend some time every day coding along, 
