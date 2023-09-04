@@ -35,3 +35,20 @@ while player1_score <= 3 or player2_score <= 3:
         Player2's Score is: {player2_score}\
   ")
     print()
+
+    if player1_score == 3:
+        print(f"Player1 won {player1_score} times! You win the game")
+        continue_playing = input("Would you like to continue playing (Y/N): ")
+        if continue_playing.upper() == "Y":
+            continue
+        else:
+            print("Thanks for playing... GAME OVER!")
+            exit()
+    elif player2_score == 3:
+        print(f"Player2 won {player2_score} times! You win the game")
+        continue_playing = input("Would you like to continue playing (Y/N): ")
+        if continue_playing.upper() == "Y":
+            continue
+        else:
+            print("Thanks for playing... GAME OVER!")
+            exit()
