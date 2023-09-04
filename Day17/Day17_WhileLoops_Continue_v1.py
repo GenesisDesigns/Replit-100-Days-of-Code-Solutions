@@ -16,3 +16,11 @@ while player1_score <= 3 or player2_score <= 3:
     if player1_choice and player2_choice not in choices:
         print("Invalid choice, please try again")
         continue
+
+    if player1_choice == player2_choice:
+        print("It's a tie")
+    elif player1_choice == "R" and player2_choice == "S" or \
+        player1_choice == "P" and player2_choice == "R" or \
+        player1_choice == "S" and player2_choice == "P":
+        print("Player1 Wins!")
+        player1_score += 1
