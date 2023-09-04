@@ -24,3 +24,14 @@ while player1_score <= 3 or player2_score <= 3:
         player1_choice == "S" and player2_choice == "P":
         print("Player1 Wins!")
         player1_score += 1
+
+    else:
+        print("Player2 Wins!")
+        player2_score += 1
+
+    print()
+    print(f"\
+        Player1's score is: {player1_score},\
+        Player2's Score is: {player2_score}\
+  ")
+    print()
