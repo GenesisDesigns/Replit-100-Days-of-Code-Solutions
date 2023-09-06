@@ -29,3 +29,12 @@ while True:
     else:
         print("Your guess is higher than the secret number")
         continue
+        
+if attempts <= (maxNum - minNum):
+    print(
+        f' You did great! It ONLY took you {attempts} attempts to guess the right number!'
+    )
+else:
+    print(
+        f"You're horrible at guessing! It took you {attempts} attempts to guess the right number! Do better next time"
+    )
