@@ -21,3 +21,11 @@ while True:
         tryAgain = input("Would you like to try again? (Y/N): ").upper()
         if tryAgain.upper() == "Y":
             continue
+        else:
+            break
+    elif yourGuess < secret_number:
+        print("Your guess is less than the secret number")
+        continue
+    else:
+        print("Your guess is higher than the secret number")
+        continue
