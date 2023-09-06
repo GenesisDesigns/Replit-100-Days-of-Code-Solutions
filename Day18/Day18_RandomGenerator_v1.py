@@ -15,4 +15,9 @@ while True:
     if yourGuess < minNum or yourGuess > maxNum:
         print("Game OVER! Thanks for playing!")
         exit()
-
+    elif yourGuess == secret_number:
+        print("Congrats! you got it right!")
+        print(f'Your attempts so far: {attempts}')
+        tryAgain = input("Would you like to try again? (Y/N): ").upper()
+        if tryAgain.upper() == "Y":
+            continue
