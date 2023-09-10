@@ -14,6 +14,9 @@ for years in range(10):
   total_Interest = round(loanAndInterest - principal_loan, 2)
   print("Years", years+1, " loan ($): ", loanAndInterest, " InterestPmt ($): ", total_Interest )
 
+print()
+print(f"With an APR of {APR*100}% at year {yearExpiration}, you will owe a total interest of ${total_Interest}.")
+
 
   
 
