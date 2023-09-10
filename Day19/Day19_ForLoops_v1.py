@@ -4,6 +4,10 @@
 print("Loan Calculator")
 print("-------------------------")
 
+principal_loan = 1000
+APR = 0.05
+yearExpiration = 10
+
 
   
 
