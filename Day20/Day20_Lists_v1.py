@@ -7,3 +7,6 @@ print()
 start = 200
 stop = 400
 increment = 10
+
+for i in range(start, stop, increment):
+  print(i, end=" ")
