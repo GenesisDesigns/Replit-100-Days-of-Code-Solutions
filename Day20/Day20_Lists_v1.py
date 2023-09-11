@@ -3,3 +3,7 @@
 print("List Generator")
 print("----------------------")
 print()
+
+start = 200
+stop = 400
+increment = 10
