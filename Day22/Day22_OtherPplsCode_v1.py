@@ -7,3 +7,9 @@ max = 5
 guessChances = 7
 secretNumber = random.randint(min, max)
 score = 0
+
+for i in range(guessChances):
+    yourGuess = int(input(f"Guess a number between {min} and {max}: "))
+    score += 1
+    if yourGuess > secretNumber:
+        print("Too high. Try again!")
