@@ -19,3 +19,8 @@ for i in range(guessChances):
         print(f"You guess {yourGuess}. CORRECT!")
         print(f"You guessed {score} times to get it right")
         tryAgain = input("Try again? (Y/N): ")
+        if tryAgain.upper() == "Y":
+            score = 0
+            continue
+        else:
+            break
