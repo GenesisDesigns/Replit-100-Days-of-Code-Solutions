@@ -24,3 +24,8 @@ for i in range(guessChances):
             continue
         else:
             break
+    if yourGuess >= guessChances:
+        print("You guessed way too many times. GameOVER!")
+        break
+
+print(f"Attempts: {score}")
