@@ -13,3 +13,9 @@ for i in range(guessChances):
     score += 1
     if yourGuess > secretNumber:
         print("Too high. Try again!")
+    elif yourGuess < secretNumber:
+        print("Too low. Try again!")
+    elif yourGuess == secretNumber:
+        print(f"You guess {yourGuess}. CORRECT!")
+        print(f"You guessed {score} times to get it right")
+        tryAgain = input("Try again? (Y/N): ")
