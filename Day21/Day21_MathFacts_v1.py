@@ -19,3 +19,10 @@ for i in range(start, stop):
         score += 1
     else:
         print(f"Not quite. The correct answer is: {correctAnswer}")
+
+print(f"You scored {score} out of {stop-1}. Please Try again.")
+print()
+if score == int(stop + 1):
+    print(f"CONGRATS! You scored {score} out of {stop-1}, a PERFECT SCORE!")
+elif score == 0:
+    print(f"You SUCK! Get back to class!")
