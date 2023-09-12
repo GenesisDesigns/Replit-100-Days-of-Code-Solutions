@@ -4,4 +4,7 @@ print("Math Game")
 print("-----------------")
 print()
 
-
+multiples = int(input("Name your multiples: "))
+start = 1
+stop = 5
+score = 0
