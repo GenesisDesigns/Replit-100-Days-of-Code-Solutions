@@ -5,3 +5,5 @@ print()
 
 def userAndPass():
     while True:
+        userName = "Kev"
+        passWord = "pass1"
