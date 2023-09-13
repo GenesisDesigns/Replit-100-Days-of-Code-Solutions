@@ -7,3 +7,7 @@ def userAndPass():
     while True:
         userName = "Kev"
         passWord = "pass1"
+
+        yourUserName = input("Username: ")
+        yourPassWord = input("Password: ")
+        print()
