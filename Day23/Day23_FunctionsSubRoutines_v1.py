@@ -11,3 +11,13 @@ def userAndPass():
         yourUserName = input("Username: ")
         yourPassWord = input("Password: ")
         print()
+
+        yourUserName = yourUserName.capitalize()
+        print(yourUserName)
+        if yourUserName == userName and yourPassWord == passWord:
+            print("Correct! Logging in")
+            break
+        else:
+            print("That is incorrect!")
+            print("Please try again")
+            continue
