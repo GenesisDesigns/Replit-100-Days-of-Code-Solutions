@@ -1,9 +1,11 @@
 #Title: Replit Day  - Day24 - RollDice - Roll In The Parameters - v1
 
+
 print("-----| Infinity Dice Game |------")
 print()
 
 import random
+
 
 def infinityDice():
   while True:
@@ -21,5 +23,6 @@ def infinityDice():
     else:
       print("Sides are are higher, try again")
       continue
+
 
 infinityDice()
