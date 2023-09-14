@@ -3,3 +3,4 @@
 print("-----| Infinity Dice Game |------")
 print()
 
+import random
