@@ -16,3 +16,8 @@ while True:
   healthBar = rollDice()
   print(f"Character's health is (HP): {healthBar}")
   tryAgain = input("Name another character? (Y/N): ").capitalize()
+
+  if tryAgain == "Y":
+    continue
+  else:
+    break
