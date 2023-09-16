@@ -2,3 +2,5 @@
 
 print("-----| character Stat Generator | ------")
 print("-------------------------------------------")
+
+import random
