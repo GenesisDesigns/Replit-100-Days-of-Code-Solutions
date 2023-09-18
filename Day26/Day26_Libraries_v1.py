@@ -9,3 +9,7 @@ def play():
 MENU = ('------------------------', '----| Music Player |----',
         '--- Press 1 to play ----', '--- Press 2 to pause ---',
         '------------------------')
+
+while True:
+  os.system("clear")
+  for line in MENU:
