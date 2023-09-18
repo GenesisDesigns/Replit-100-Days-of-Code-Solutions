@@ -13,3 +13,7 @@ MENU = ('------------------------', '----| Music Player |----',
 while True:
   os.system("clear")
   for line in MENU:
+
+    time.sleep(0.1)
+    print(line)
+  print()
