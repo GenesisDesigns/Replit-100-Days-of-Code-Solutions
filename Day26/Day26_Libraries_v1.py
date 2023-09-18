@@ -17,3 +17,8 @@ while True:
     time.sleep(0.1)
     print(line)
   print()
+
+  while True:
+    choice = int(input("press 1 to play or press 2 to stop: "))
+    if choice == 1:
+      play()
