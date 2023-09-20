@@ -1,5 +1,6 @@
 #Title: Replit Day  - Day27 - Character Generator - Video Game Characters - v1
 
+
 """ 
 Requirements:
 1. first name and character type (human, elf, wizard, orc) 
@@ -14,6 +15,7 @@ Formulas:
 
 
 """
+
 
 import os, time, random
 
@@ -37,6 +39,7 @@ def character_backgrounds():
   print(f"Character Faction: {random_char_faction}")
   print(f"Character Specialization: {random_char_specialization}")
 
+
 def dice_rolls():
   #generate a random float number for each dice roll 
   dice6 = random.uniform(1,6)
@@ -56,6 +59,8 @@ def char_stats():
   #print HP and Str and round to 2 decimal places
   print(f"HP: {round(healthBar, 2)}")
   print(f"Stength: {round(strength, 2)}")
+
+
 
 while True:
   for line in MENU:
@@ -78,3 +83,9 @@ while True:
   else:
     os.system("cls")
     break
+  
+  
+  
+
+
+
