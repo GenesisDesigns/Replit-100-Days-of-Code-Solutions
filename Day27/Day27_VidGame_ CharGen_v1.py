@@ -56,3 +56,25 @@ def char_stats():
   #print HP and Str and round to 2 decimal places
   print(f"HP: {round(healthBar, 2)}")
   print(f"Stength: {round(strength, 2)}")
+
+while True:
+  for line in MENU:
+    print(line)
+    time.sleep(0.1)
+  print()
+  
+  char_name = input("Character Name: ").title()
+  os.system("cls")
+  print(f"Character Name: {char_name}")
+  character_backgrounds()
+  char_stats()
+
+  print()
+  tryAgain = input("Generate another character? (Y/N): ")
+  print()
+  if tryAgain.capitalize() == "Y":
+    os.system("cls")
+    continue
+  else:
+    os.system("cls")
+    break
