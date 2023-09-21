@@ -16,6 +16,16 @@ Formulas:
 
 """
 
+import os, time, random
+
+MENU = (
+  "------| Character Generator |------",
+  "- Generate the best character ever-",
+  "- ONLY 1 Gold to generate 1 coin  -",
+  "- May the Luck be with you!        -",
+  "-----------------------------------"
+)
+
   
   
 
