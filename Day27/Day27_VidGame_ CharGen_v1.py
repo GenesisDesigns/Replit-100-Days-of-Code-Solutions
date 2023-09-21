@@ -38,6 +38,14 @@ def character_backgrounds():
   print(f"Character Faction: {random_char_faction}")
   print(f"Character Specialization: {random_char_specialization}")
 
+
+def dice_rolls():
+  #generate a random float number for each dice roll 
+  dice6 = random.uniform(1,6)
+  dice8 = random.uniform(1,8)
+  dice12 = random.uniform(1,12)
+  return dice6, dice8, dice12
+
   
   
 
