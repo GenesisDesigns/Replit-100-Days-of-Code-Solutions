@@ -46,6 +46,19 @@ def dice_rolls():
   dice12 = random.uniform(1,12)
   return dice6, dice8, dice12
 
+
+def char_stats():
+  #calling dice_roll() function variables
+  dice6, dice8, dice12 = dice_rolls()
+
+  #formulas 
+  healthBar = (dice6 * dice12)/2 + 10
+  strength = (dice6 * dice8)/2 + 12
+
+  #print HP and Str and round to 2 decimal places
+  print(f"HP: {round(healthBar, 2)}")
+  print(f"Stength: {round(strength, 2)}")
+
   
   
 
