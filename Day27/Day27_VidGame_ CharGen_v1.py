@@ -16,6 +16,7 @@ Formulas:
 
 """
 
+
 import os, time, random
 
 MENU = (
@@ -59,6 +60,8 @@ def char_stats():
   print(f"HP: {round(healthBar, 2)}")
   print(f"Stength: {round(strength, 2)}")
 
+
+
 while True:
   for line in MENU:
     print(line)
@@ -81,7 +84,6 @@ while True:
     os.system("cls")
     break
   
-
   
   
 
