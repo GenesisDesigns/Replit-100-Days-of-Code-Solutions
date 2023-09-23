@@ -26,3 +26,6 @@ def character_background():
   random_char_class = random.choice(char_class)
   print(f"Faction: {random_char_faction}")
   print(f"Class: {random_char_class}")
+
+#random generates dice roll sides
+def dice_roll():
