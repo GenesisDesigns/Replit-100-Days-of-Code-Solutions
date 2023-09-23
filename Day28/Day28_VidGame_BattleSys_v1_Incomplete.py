@@ -20,3 +20,7 @@ def character_background():
     "Elementals", "Thief", "Warrior", "Swordsman", "Ninja", "Magicians",
     "Necromancer", "Blacksmith", "Assassin", "Angel", "Devil"
   ]
+
+  #generates char factions and class
+  random_char_faction = random.choice(char_faction)
+  random_char_class = random.choice(char_class)
