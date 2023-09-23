@@ -24,3 +24,5 @@ def character_background():
   #generates char factions and class
   random_char_faction = random.choice(char_faction)
   random_char_class = random.choice(char_class)
+  print(f"Faction: {random_char_faction}")
+  print(f"Class: {random_char_class}")
