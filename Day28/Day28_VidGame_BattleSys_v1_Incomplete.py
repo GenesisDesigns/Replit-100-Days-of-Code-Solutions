@@ -30,3 +30,4 @@ def character_background():
 #random generates dice roll sides
 def dice_roll():
   dice6 = random.randint(1, 6)
+  dice8 = random.randint(1, 8)
