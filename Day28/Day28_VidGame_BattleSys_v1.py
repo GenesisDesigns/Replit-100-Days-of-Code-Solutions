@@ -9,3 +9,9 @@ MENU = ("------------| Battle Simulator |----------",
         "-------------------------------------------")
 
 #list of char background()
+
+def character_background():
+  char_faction = [
+    "Elf", "Human", "Orc", "Demon", "Troll", "Beast", "Shadow", "Celestials",
+    "DemiGod"
+  ]
