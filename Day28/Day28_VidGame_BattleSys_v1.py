@@ -15,3 +15,8 @@ def character_background():
     "Elf", "Human", "Orc", "Demon", "Troll", "Beast", "Shadow", "Celestials",
     "DemiGod"
   ]
+
+  char_class = [
+    "Elementals", "Thief", "Warrior", "Swordsman", "Ninja", "Magicians",
+    "Necromancer", "Blacksmith", "Assassin", "Angel", "Devil"
+  ]
