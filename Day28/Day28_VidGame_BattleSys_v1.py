@@ -7,3 +7,5 @@ MENU = ("------------| Battle Simulator |----------",
         "- Character with most pts wins the game  -",
         "- May the Luck be with you!              -",
         "-------------------------------------------")
+
+#list of char background()
