@@ -31,3 +31,7 @@ def character_background():
 def dice_roll():
   dice6 = random.randint(1, 6)
   dice8 = random.randint(1, 8)
+
+def luck():
+  lucky_dice = random.randint(1, 12)
+  return lucky_dice
