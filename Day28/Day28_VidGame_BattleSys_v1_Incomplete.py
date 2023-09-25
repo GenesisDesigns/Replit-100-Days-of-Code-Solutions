@@ -47,3 +47,5 @@ def char_stats():
   #print(f"HP: {healthBar}")
   #print(f"STR: {strength}")
   return healthBar, strength
+
+def char_names():
