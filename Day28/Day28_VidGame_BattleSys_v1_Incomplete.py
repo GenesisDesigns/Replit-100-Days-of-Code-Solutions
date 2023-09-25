@@ -39,3 +39,7 @@ def luck():
 def char_stats():
   #Calls dice_roll()
   dice6, dice8, dice12 = dice_roll()
+
+  #char stats formula
+  healthBar = (dice6 * dice12) / 2 + 10
+  strength = (dice6 * dice8) / 2 + 12
