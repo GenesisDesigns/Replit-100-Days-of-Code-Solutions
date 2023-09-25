@@ -35,3 +35,7 @@ def dice_roll():
 def luck():
   lucky_dice = random.randint(1, 12)
   return lucky_dice
+
+def char_stats():
+  #Calls dice_roll()
+  dice6, dice8, dice12 = dice_roll()
