@@ -43,3 +43,7 @@ def char_stats():
   #char stats formula
   healthBar = (dice6 * dice12) / 2 + 10
   strength = (dice6 * dice8) / 2 + 12
+
+  #print(f"HP: {healthBar}")
+  #print(f"STR: {strength}")
+  return healthBar, strength
