@@ -52,3 +52,5 @@ def char_stats():
 def char_names():
   player1 = input("Player1's Character Name: ")
   character_background()  #player1
+  print()
+  player2 = input("Player2's character name: ")
