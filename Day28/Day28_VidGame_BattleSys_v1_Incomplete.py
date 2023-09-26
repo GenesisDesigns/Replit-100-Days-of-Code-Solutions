@@ -54,3 +54,5 @@ def char_names():
   character_background()  #player1
   print()
   player2 = input("Player2's character name: ")
+  character_background()  #player2
+  return player1, player2
