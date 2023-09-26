@@ -45,7 +45,9 @@ def char_stats():
   strength = (dice6 * dice8) / 2 + 12
 
   #print(f"HP: {healthBar}")
+
   #print(f"STR: {strength}")
   return healthBar, strength
 
 def char_names():
+  player1 = input("Player1's Character Name: ")
