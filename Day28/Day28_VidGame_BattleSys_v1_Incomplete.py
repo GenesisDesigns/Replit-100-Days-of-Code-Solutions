@@ -56,3 +56,7 @@ def char_names():
   player2 = input("Player2's character name: ")
   character_background()  #player2
   return player1, player2
+
+#enter char names and generate player stats
+def player_stats():
+  healthBar, strength = char_stats()
