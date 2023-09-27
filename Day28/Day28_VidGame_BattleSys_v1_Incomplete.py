@@ -60,3 +60,7 @@ def char_names():
 #enter char names and generate player stats
 def player_stats():
   healthBar, strength = char_stats()
+
+  #player1
+  player1_HP = healthBar
+  player1_STR = strength
