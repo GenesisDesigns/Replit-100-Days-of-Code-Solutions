@@ -66,3 +66,4 @@ def player_stats():
   player1_STR = strength
   print(f"Player1's HP: {healthBar}")
   print(f"Player1's STR: {strength}")
+  print()
