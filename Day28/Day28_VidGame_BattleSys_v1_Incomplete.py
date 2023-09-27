@@ -71,3 +71,5 @@ def player_stats():
   #player2
   player2_HP = healthBar
   player2_STR = strength
+  print()
+  return player1_HP, player2_HP, player1_STR, player2_STR
