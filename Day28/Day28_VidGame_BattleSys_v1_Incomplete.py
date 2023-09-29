@@ -78,3 +78,7 @@ for line in MENU:
   print(line)
   time.sleep(0.1)
   print()
+
+#PK points
+player1_points = 0
+player2_points = 0
