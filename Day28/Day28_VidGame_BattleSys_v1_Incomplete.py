@@ -90,3 +90,4 @@ while True:
   player1, player2 = char_names()
 
   while player1_points <= 3 or player2_points <= 3:
+     player1_HP, player2_HP, player1_STR, player2_STR = player_stats()
