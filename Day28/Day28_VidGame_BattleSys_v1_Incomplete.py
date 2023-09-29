@@ -92,3 +92,6 @@ while True:
   while player1_points <= 3 or player2_points <= 3:
     player1_HP, player2_HP, player1_STR, player2_STR = player_stats()
     round += 1
+    #Players Luck - decides who goes first
+    player1_luck = luck()
+    player2_luck = luck()
