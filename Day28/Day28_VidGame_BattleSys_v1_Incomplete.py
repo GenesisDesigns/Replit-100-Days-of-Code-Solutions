@@ -96,3 +96,4 @@ while True:
     #Players Luck - decides who goes first
     player1_luck = luck()
     player2_luck = luck()
+    print(f"Player1's Luck: {player1_luck}")
