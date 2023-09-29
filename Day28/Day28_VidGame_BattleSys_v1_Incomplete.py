@@ -82,3 +82,6 @@ for line in MENU:
 #PK points
 player1_points = 0
 player2_points = 0
+
+#Num of Rounds
+round = 0
