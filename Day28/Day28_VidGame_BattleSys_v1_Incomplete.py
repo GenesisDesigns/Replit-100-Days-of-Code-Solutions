@@ -85,3 +85,6 @@ player2_points = 0
 
 #Num of Rounds
 round = 0
+
+while True:
+  player1, player2 = char_names()
