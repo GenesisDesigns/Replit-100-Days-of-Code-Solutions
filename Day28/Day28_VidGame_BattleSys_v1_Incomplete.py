@@ -73,3 +73,8 @@ def player_stats():
   player2_STR = strength
   print()
   return player1_HP, player2_HP, player1_STR, player2_STR
+
+for line in MENU:
+  print(line)
+  time.sleep(0.1)
+  print()
