@@ -97,3 +97,5 @@ while True:
     player1_luck = luck()
     player2_luck = luck()
     print(f"Player1's Luck: {player1_luck}")
+    print(f"Player2's Luck: {player2_luck}")
+    print()
