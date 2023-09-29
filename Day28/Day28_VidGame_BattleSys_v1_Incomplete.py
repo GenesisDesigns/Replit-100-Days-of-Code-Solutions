@@ -88,3 +88,5 @@ round = 0
 
 while True:
   player1, player2 = char_names()
+
+  while player1_points <= 3 or player2_points <= 3:
