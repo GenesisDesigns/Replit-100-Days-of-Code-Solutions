@@ -104,3 +104,4 @@ while True:
     if player1_luck == player2_luck:
       #os.system("clear")
       continue
+    elif player1_luck > player2_luck:  #player1 goes first
