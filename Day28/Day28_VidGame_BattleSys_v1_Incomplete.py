@@ -102,3 +102,5 @@ while True:
           
     #Luck determines who goes first
     if player1_luck == player2_luck:
+      #os.system("clear")
+      continue
