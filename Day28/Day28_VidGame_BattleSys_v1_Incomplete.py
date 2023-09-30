@@ -99,3 +99,6 @@ while True:
     print(f"Player1's Luck: {player1_luck}")
     print(f"Player2's Luck: {player2_luck}")
     print()
+          
+    #Luck determines who goes first
+    if player1_luck == player2_luck:
