@@ -105,3 +105,4 @@ while True:
       #os.system("clear")
       continue
     elif player1_luck > player2_luck:  #player1 goes first
+      new_player2_HP = player2_HP - player1_STR  #player1 attacks player2
