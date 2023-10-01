@@ -107,3 +107,5 @@ while True:
     elif player1_luck > player2_luck:  #player1 goes first
       new_player2_HP = player2_HP - player1_STR  #player1 attacks player2
       if new_player2_HP > 0:
+        print(f"Player1's char, {player1}, has {new_player1_HP} HP left.")
+
