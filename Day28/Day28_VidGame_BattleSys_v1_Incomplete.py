@@ -118,3 +118,6 @@ while True:
         continue
       else:
         print(f"Player1's char, {player1}, is dead! Congrates you win!")
+        player2_points += 1
+        print()
+        
