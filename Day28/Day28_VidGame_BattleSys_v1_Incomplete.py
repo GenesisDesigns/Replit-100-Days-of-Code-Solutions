@@ -114,4 +114,6 @@ while True:
         Trample them while they are still on the ground!
         LFG!
         """)
+        print()
+        continue
 
