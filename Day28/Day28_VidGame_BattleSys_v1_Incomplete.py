@@ -117,3 +117,4 @@ while True:
         print()
         continue
       else:
+        print(f"Player1's char, {player1}, is dead! Congrates you win!")
