@@ -108,4 +108,10 @@ while True:
       new_player2_HP = player2_HP - player1_STR  #player1 attacks player2
       if new_player2_HP > 0:
         print(f"Player1's char, {player1}, has {new_player1_HP} HP left.")
+        print(f"""
+        {player1} is not dead yet! 
+        We must extinguish the flames my liege!
+        Trample them while they are still on the ground!
+        LFG!
+        """)
 
