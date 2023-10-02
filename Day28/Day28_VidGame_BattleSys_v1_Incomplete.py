@@ -121,4 +121,5 @@ while True:
         player2_points += 1
         print()
       print(f"{player1} Points: {player1_points}")
+      print(f"{player2} Points: {player2_points}")
         
