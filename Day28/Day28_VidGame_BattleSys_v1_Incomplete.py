@@ -124,4 +124,5 @@ while True:
       print(f"{player2} Points: {player2_points}")
       print(f"It took you {round} rounds to win!")
     playAgain = input("Play Again? (Y/N)")
+    if playAgain.upper() == "Y":
         
