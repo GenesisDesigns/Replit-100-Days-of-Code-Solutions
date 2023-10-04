@@ -127,4 +127,5 @@ while True:
     if playAgain.upper() == "Y":
       continue
     else:
+      exit()
         
