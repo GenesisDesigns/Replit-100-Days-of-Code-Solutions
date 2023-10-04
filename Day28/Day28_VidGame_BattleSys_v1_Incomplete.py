@@ -1,5 +1,7 @@
 #Title: Replit Day  - Day28 - Character Battle System - Epic Character Battle - v1
 
+
+
 import os, time, random
 
 MENU = ("------------| Battle Simulator |----------",
@@ -8,14 +10,13 @@ MENU = ("------------| Battle Simulator |----------",
         "- May the Luck be with you!              -",
         "-------------------------------------------")
 
-#list of char background()
 
+#list of char background()
 def character_background():
   char_faction = [
     "Elf", "Human", "Orc", "Demon", "Troll", "Beast", "Shadow", "Celestials",
     "DemiGod"
   ]
-
   char_class = [
     "Elementals", "Thief", "Warrior", "Swordsman", "Ninja", "Magicians",
     "Necromancer", "Blacksmith", "Assassin", "Angel", "Devil"
@@ -27,14 +28,19 @@ def character_background():
   print(f"Faction: {random_char_faction}")
   print(f"Class: {random_char_class}")
 
+
 #random generates dice roll sides
 def dice_roll():
   dice6 = random.randint(1, 6)
   dice8 = random.randint(1, 8)
+  dice12 = random.randint(1, 12)
+  return dice6, dice8, dice12
+
 
 def luck():
   lucky_dice = random.randint(1, 12)
   return lucky_dice
+
 
 def char_stats():
   #Calls dice_roll()
@@ -45,9 +51,9 @@ def char_stats():
   strength = (dice6 * dice8) / 2 + 12
 
   #print(f"HP: {healthBar}")
-
   #print(f"STR: {strength}")
   return healthBar, strength
+
 
 def char_names():
   player1 = input("Player1's Character Name: ")
@@ -56,6 +62,7 @@ def char_names():
   player2 = input("Player2's character name: ")
   character_background()  #player2
   return player1, player2
+
 
 #enter char names and generate player stats
 def player_stats():
@@ -71,8 +78,11 @@ def player_stats():
   #player2
   player2_HP = healthBar
   player2_STR = strength
+  print(f"Player2's HP: {healthBar}")
+  print(f"Player2's STR: {strength}")
   print()
   return player1_HP, player2_HP, player1_STR, player2_STR
+
 
 for line in MENU:
   print(line)
@@ -92,14 +102,13 @@ while True:
   while player1_points <= 3 or player2_points <= 3:
     player1_HP, player2_HP, player1_STR, player2_STR = player_stats()
     round += 1
-          
     #Players Luck - decides who goes first
     player1_luck = luck()
     player2_luck = luck()
     print(f"Player1's Luck: {player1_luck}")
     print(f"Player2's Luck: {player2_luck}")
     print()
-          
+
     #Luck determines who goes first
     if player1_luck == player2_luck:
       #os.system("clear")
@@ -107,6 +116,21 @@ while True:
     elif player1_luck > player2_luck:  #player1 goes first
       new_player2_HP = player2_HP - player1_STR  #player1 attacks player2
       if new_player2_HP > 0:
+        print(f"Player2's char, {player2}, has {new_player2_HP} HP left.")
+        print(f"""
+        {player2} is not dead yet! 
+        We must kill it immediately my liege!
+        Quickly gather your strength and purge this evil!
+        """)
+        print()
+        continue
+      else:
+        print(f"Player2's char, {player2}, is dead! Congrates you win!")
+        player1_points += 1
+        print()
+    elif player1_luck < player2_luck:  #player2 goes first
+      new_player1_HP = player1_HP - player2_STR  #Player2 attacks Player 1
+      if new_player1_HP > 0:
         print(f"Player1's char, {player1}, has {new_player1_HP} HP left.")
         print(f"""
         {player1} is not dead yet! 
@@ -120,6 +144,7 @@ while True:
         print(f"Player1's char, {player1}, is dead! Congrates you win!")
         player2_points += 1
         print()
+
       print(f"{player1} Points: {player1_points}")
       print(f"{player2} Points: {player2_points}")
       print(f"It took you {round} rounds to win!")
@@ -129,4 +154,3 @@ while True:
     else:
       exit()
   exit()
-        
