@@ -10,5 +10,7 @@ print("With my ", end='')
 print(colored("new program", pinkColor), end='')
 print(colored("new program ", "red"), end='')
 print("I can just")
+print()
+print("call red(' and ')", end='')
 
 
