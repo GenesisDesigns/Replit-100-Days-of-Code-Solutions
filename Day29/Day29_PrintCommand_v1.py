@@ -7,6 +7,7 @@ pinkColor = (255, 182, 193)
 print('Super Subroutine')
 print()
 print("With my ", end='')
+print(colored("new program", pinkColor), end='')
 
 
 
