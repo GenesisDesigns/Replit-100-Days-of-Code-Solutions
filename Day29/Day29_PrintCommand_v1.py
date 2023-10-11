@@ -13,4 +13,5 @@ print("I can just")
 print()
 print("call red(' and ')", end='')
 print(colored(" and ", "red"), end='')
+print("that word will")
 
