@@ -12,5 +12,5 @@ print(colored("new program ", "red"), end='')
 print("I can just")
 print()
 print("call red(' and ')", end='')
-
+print(colored(" and ", "red"), end='')
 
