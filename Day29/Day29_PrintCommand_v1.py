@@ -15,4 +15,6 @@ print("call red(' and ')", end='')
 print(colored(" and ", "red"), end='')
 print("that word will")
 print("appear in the color i set it to.")
+print()
+print("With no ", end='')
 
