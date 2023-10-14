@@ -4,4 +4,5 @@ print("Survey and Feedback")
 print("30 days down - what did you think?")
 
 def scores_day1(score):
+    align_center = 70
 
