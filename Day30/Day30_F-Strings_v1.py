@@ -7,3 +7,4 @@ def scores_day1(score):
     align_center = 70
     if score > 5:
         print(f"{'You thought it was amazing!' : ^{align_center}}")
+    elif score == 5:
