@@ -8,3 +8,4 @@ def scores_day1(score):
     if score > 5:
         print(f"{'You thought it was amazing!' : ^{align_center}}")
     elif score == 5:
+        print(f"{'you thought it was OK?' : ^{align_center}}")
