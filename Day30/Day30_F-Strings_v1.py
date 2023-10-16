@@ -13,3 +13,4 @@ def scores_day1(score):
         print(f"{'you thought it was bad?!' : ^{align_center}}")
 
 days = 1
+for days in range(30 + 1):
