@@ -10,4 +10,4 @@ def scores_day1(score):
     elif score == 5:
         print(f"{'you thought it was OK?' : ^{align_center}}")
     else:
-        print(f"{'you thought it was SHIT?! WTF!' : ^{align_center}}")
+        print(f"{'you thought it was bad?!' : ^{align_center}}")
