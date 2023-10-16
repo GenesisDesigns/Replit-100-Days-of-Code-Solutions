@@ -11,3 +11,5 @@ def scores_day1(score):
         print(f"{'you thought it was OK?' : ^{align_center}}")
     else:
         print(f"{'you thought it was bad?!' : ^{align_center}}")
+
+days = 1
