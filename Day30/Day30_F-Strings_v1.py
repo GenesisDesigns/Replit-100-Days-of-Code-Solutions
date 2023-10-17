@@ -18,3 +18,4 @@ for days in range(30 + 1):
       day = input("What did you think about the lessons? (scale 1 to 10): ")
       scores_day1(int(day))
       print()
+      continue
