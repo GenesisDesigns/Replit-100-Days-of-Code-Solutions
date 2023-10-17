@@ -15,3 +15,4 @@ def scores_day1(score):
 days = 1
 for days in range(30 + 1):
       print(f"Day {days}:")
+      day = input("What did you think about the lessons? (scale 1 to 10): ")
