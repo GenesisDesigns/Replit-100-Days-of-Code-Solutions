@@ -7,4 +7,5 @@ from termcolor import colored
 def interface1():
   center_align_title = 50
   left_align1 = 20
+  left_align2 = 40
 
