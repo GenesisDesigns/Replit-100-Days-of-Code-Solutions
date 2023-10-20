@@ -10,5 +10,6 @@ def interface1():
   left_align2 = 40
   right_algin3 = 20
   print(colored(f"{'Music APP' : ^{center_align_title}}", "yellow"))
+  print("\n\n")
   
 
