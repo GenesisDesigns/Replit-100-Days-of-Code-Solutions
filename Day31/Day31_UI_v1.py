@@ -13,4 +13,5 @@ def interface1():
   print("\n\n")
   print(f"🔥▶️ Radio Gaga")
   print(colored(f"    Queen", "yellow"))
+  print("\n\n")
 
