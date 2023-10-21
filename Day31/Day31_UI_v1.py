@@ -18,3 +18,4 @@ def interface1():
   
   print(f"PREV")
   print(colored(f"{'NEXT' : ^{left_align1}}", "green"))
+  print(colored(f"{'PAUSE' : ^{left_align2}}", "red"))
