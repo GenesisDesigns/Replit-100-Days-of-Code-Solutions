@@ -11,7 +11,9 @@ def interface1():
   right_algin3 = 20
   print(colored(f"{'Music APP' : ^{center_align_title}}", "yellow"))
   print("\n\n")
+  
   print(f"🔥▶️ Radio Gaga")
   print(colored(f"    Queen", "yellow"))
   print("\n\n")
-
+  
+  print(f"PREV")
