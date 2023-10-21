@@ -17,3 +17,4 @@ def interface1():
   print("\n\n")
   
   print(f"PREV")
+  print(colored(f"{'NEXT' : ^{left_align1}}", "green"))
