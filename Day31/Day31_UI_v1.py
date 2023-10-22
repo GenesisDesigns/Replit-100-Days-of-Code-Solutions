@@ -21,3 +21,4 @@ def interface1():
   print(colored(f"{'PAUSE' : ^{left_align2}}", "red"))
 
 def interface2():
+  center_align_title = 50
