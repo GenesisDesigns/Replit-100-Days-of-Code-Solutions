@@ -24,3 +24,4 @@ def interface2():
   center_align_title = 50
   right_align = 50
   print(f"{'WELCOME TOP' : ^{center_align_title}}")
+  print(colored(f"{'--    ARMBOOK    --' : ^{center_align_title}}", "blue"))
