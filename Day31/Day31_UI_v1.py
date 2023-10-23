@@ -22,3 +22,4 @@ def interface1():
 
 def interface2():
   center_align_title = 50
+  right_align = 50
