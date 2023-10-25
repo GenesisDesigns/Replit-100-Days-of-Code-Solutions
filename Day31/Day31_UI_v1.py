@@ -31,3 +31,5 @@ def interface2():
   print(colored(f"{'of a certain other social' : >{right_align}}", "yellow"))
   print(colored(f"{'networking site.' : >{right_align}}", "yellow"))
   print()
+
+  print(colored(f"{'Honest' : ^{center_align_title}}", "red"))
