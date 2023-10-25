@@ -30,3 +30,4 @@ def interface2():
   print(colored(f"{'Definitely not a rip off' : >{right_align}}", "yellow"))
   print(colored(f"{'of a certain other social' : >{right_align}}", "yellow"))
   print(colored(f"{'networking site.' : >{right_align}}", "yellow"))
+  print()
