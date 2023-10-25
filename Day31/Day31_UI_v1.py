@@ -33,3 +33,4 @@ def interface2():
   print()
 
   print(colored(f"{'Honest' : ^{center_align_title}}", "red"))
+  print("\n\n")
