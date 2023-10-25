@@ -26,3 +26,5 @@ def interface2():
   print(f"{'WELCOME TOP' : ^{center_align_title}}")
   print(colored(f"{'--    ARMBOOK    --' : ^{center_align_title}}", "blue"))
   print("\n\n")
+
+  print(colored(f"{'Definitely not a rip off' : >{right_align}}", "yellow"))
