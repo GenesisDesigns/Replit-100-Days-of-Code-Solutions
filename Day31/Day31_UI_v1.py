@@ -38,3 +38,4 @@ def interface2():
   print(f"{'Password:' : ^{center_align_title}}")
 
 center_align = 50
+print("Interface1:")
