@@ -39,3 +39,4 @@ def interface2():
 
 center_align = 50
 print("Interface1:")
+print()
