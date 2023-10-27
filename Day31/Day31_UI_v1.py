@@ -41,3 +41,4 @@ center_align = 50
 print("Interface1:")
 print()
 interface1()
+print("\n\n")
