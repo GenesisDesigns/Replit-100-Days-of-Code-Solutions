@@ -1,7 +1,5 @@
 #Title: Replit Day  - Day31 - Create User Interface (UI) - v1
 
-
-
 from termcolor import colored
 
 def interface1():
@@ -11,14 +9,15 @@ def interface1():
   right_algin3 = 20
   print(colored(f"{'Music APP' : ^{center_align_title}}", "yellow"))
   print("\n\n")
-  
+
   print(f"🔥▶️ Radio Gaga")
   print(colored(f"    Queen", "yellow"))
   print("\n\n")
-  
+
   print(f"PREV")
   print(colored(f"{'NEXT' : ^{left_align1}}", "green"))
   print(colored(f"{'PAUSE' : ^{left_align2}}", "red"))
+
 
 def interface2():
   center_align_title = 50
@@ -37,6 +36,7 @@ def interface2():
   print(f"{'Username:' : ^{center_align_title}}")
   print(f"{'Password:' : ^{center_align_title}}")
 
+
 center_align = 50
 print("Interface1:")
 print()
@@ -44,8 +44,8 @@ interface1()
 print("\n\n")
 print(f"{'=============================================' : ^{center_align}}")
 print("\n\n")
-interface2()
 print(f"{'=============================================' : ^{center_align}}")
 print("\n\n")
 print("Interface2:")
 print()
+interface2()
