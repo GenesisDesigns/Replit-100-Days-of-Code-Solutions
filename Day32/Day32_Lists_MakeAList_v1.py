@@ -10,3 +10,10 @@ greetings_list = [
   'こんにちは', '안녕하세요', 'Cześć', 'Olá', 'Здравствуйте', 'Hola', 'Hej', 'สวัสดี',
   'Merhaba', 'Вітаю', 'Xin chào', 'Helô', 'Bawo ni'
 ]
+
+greetings_dict = {
+  'Arabic': 'السلام عليكم',
+  'Chinese (Mandarin)': '你好',
+  'Dutch': 'Hallo',
+
+}
