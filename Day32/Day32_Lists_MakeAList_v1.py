@@ -22,4 +22,6 @@ greetings_dict = {
   'Japanese': 'こんにちは',
   'Korean': '안녕하세요',
   'Polish': 'Cześć',
+  'Portuguese': 'Olá',
+  'Russian': 'Здравствуйте',
 }
