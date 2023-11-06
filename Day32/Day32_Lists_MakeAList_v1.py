@@ -17,4 +17,9 @@ greetings_dict = {
   'Dutch': 'Hallo',
   'French': 'Bonjour',
   'German': 'Guten Tag',
+  'Hindi': 'नमस्ते',
+  'Italian': 'Ciao',
+  'Japanese': 'こんにちは',
+  'Korean': '안녕하세요',
+  'Polish': 'Cześć',
 }
