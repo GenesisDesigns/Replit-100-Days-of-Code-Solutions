@@ -15,5 +15,6 @@ greetings_dict = {
   'Arabic': 'السلام عليكم',
   'Chinese (Mandarin)': '你好',
   'Dutch': 'Hallo',
-
+  'French': 'Bonjour',
+  'German': 'Guten Tag',
 }
