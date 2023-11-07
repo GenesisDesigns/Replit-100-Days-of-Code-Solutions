@@ -26,4 +26,6 @@ greetings_dict = {
   'Russian': 'Здравствуйте',
   'Spanish': 'Hola',
   'Swedish': 'Hej',
+  'Thai': 'สวัสดี',
+  'Turkish': 'Merhaba',
 }
