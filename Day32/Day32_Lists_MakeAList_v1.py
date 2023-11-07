@@ -29,4 +29,7 @@ greetings_dict = {
   'Thai': 'สวัสดี',
   'Turkish': 'Merhaba',
   'Ukrainian': 'Вітаю',
+  'Vietnamese': 'Xin chào',
+  'Welsh': 'Helô',
+  'Yoruba': 'Bawo ni'
 }
