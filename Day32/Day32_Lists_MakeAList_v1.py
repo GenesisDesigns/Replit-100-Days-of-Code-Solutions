@@ -28,4 +28,5 @@ greetings_dict = {
   'Swedish': 'Hej',
   'Thai': 'สวัสดี',
   'Turkish': 'Merhaba',
+  'Ukrainian': 'Вітаю',
 }
