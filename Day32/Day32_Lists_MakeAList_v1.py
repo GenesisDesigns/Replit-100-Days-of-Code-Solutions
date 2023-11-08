@@ -36,3 +36,4 @@ greetings_dict = {
 
 #generate random greetings from the list
 while True:
+  generate_greeting = input("Generate a greeting list (Y/N): ")
