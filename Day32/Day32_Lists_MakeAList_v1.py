@@ -33,3 +33,6 @@ greetings_dict = {
   'Welsh': 'Helô',
   'Yoruba': 'Bawo ni'
 }
+
+#generate random greetings from the list
+while True:
