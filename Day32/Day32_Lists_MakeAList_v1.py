@@ -41,6 +41,7 @@ while True:
       random_greeting = random.choice(greetings_list)
       print(random_greeting)
       print()
+      continue
       
 
 
