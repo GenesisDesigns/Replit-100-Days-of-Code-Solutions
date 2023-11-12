@@ -45,5 +45,8 @@ while True:
     else:
       break
       
+  print("\n\n")
 
+#generate random greetings from the dictionary
+while True:
 
