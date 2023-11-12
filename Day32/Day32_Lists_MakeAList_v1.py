@@ -42,6 +42,8 @@ while True:
       print(random_greeting)
       print()
       continue
+    else:
+      break
       
 
 
