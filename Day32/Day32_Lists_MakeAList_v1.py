@@ -50,4 +50,5 @@ while True:
 #generate random greetings from the dictionary
 while True:
   generate_greeting = input("Generate a greeting from dictionary (Y/N): ")
+  if generate_greeting.capitalize() == "Y":
 
