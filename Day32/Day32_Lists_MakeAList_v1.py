@@ -48,4 +48,6 @@ while True:
   print("\n\n")
 
 #generate random greetings from the dictionary
+while True:
+  generate_greeting = input("Generate a greeting from dictionary (Y/N): ")
 
