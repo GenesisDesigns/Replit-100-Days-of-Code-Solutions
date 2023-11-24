@@ -54,4 +54,5 @@ while True:
       greeting, message = random.choice(list(greetings_dict.items()))
       print(greeting + ':', message)
       print()
+      continue
 
