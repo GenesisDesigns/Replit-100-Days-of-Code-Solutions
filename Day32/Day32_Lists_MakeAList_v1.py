@@ -37,24 +37,23 @@ greetings_dict = {
 #generate random greetings from the list
 while True:
   generate_greeting = input("Generate a greeting list (Y/N): ")
-    if generate_greeting.capitalize() == "Y":
-      random_greeting = random.choice(greetings_list)
-      print(random_greeting)
-      print()
-      continue
-    else:
-      break
-      
-  print("\n\n")
+  if generate_greeting.capitalize() == "Y":
+    random_greeting = random.choice(greetings_list)
+    print(random_greeting)
+    print()
+    continue
+  else:
+    break
+
+print("\n\n")
 
 #generate random greetings from the dictionary
 while True:
   generate_greeting = input("Generate a greeting from dictionary (Y/N): ")
-    if generate_greeting.capitalize() == "Y":
-      greeting, message = random.choice(list(greetings_dict.items()))
-      print(greeting + ':', message)
-      print()
-      continue
-    else:
-      break
-
+  if generate_greeting.capitalize() == "Y":
+    greeting, message = random.choice(list(greetings_dict.items()))
+    print(greeting + ':', message)
+    print()
+    continue
+  else:
+    break
