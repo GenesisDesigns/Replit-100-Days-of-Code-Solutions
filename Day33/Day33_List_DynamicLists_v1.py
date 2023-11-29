@@ -3,3 +3,5 @@
 print("------------------------")
 print("-----| To Do List |-----")
 print("------------------------")
+
+myToDoList = ["swim", "eat", "sweep"]
