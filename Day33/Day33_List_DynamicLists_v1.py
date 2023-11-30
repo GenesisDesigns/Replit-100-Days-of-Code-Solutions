@@ -8,3 +8,4 @@ myToDoList = ["swim", "eat", "sweep"]
 
 def myToDoList_func():
   for index, item in enumerate(myToDoList):
+      print(index, item)
