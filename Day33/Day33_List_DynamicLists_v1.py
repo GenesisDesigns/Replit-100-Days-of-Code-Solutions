@@ -5,3 +5,5 @@ print("-----| To Do List |-----")
 print("------------------------")
 
 myToDoList = ["swim", "eat", "sweep"]
+
+def myToDoList_func():
