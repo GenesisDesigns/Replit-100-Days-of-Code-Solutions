@@ -12,3 +12,9 @@ def myToDoList_func():
 
 while True:
   #view, add, edit (remove) to do list
+  whatToDo = input("""
+    1. View List (V), 
+    2. Add to List (A),
+    3. Remove from List (R)
+    4. Exit (E)
+  """)
