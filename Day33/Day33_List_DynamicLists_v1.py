@@ -9,3 +9,6 @@ myToDoList = ["swim", "eat", "sweep"]
 def myToDoList_func():
   for index, item in enumerate(myToDoList):
       print(index, item)
+
+while True:
+  #view, add, edit (remove) to do list
