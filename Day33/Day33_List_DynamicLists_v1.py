@@ -18,3 +18,5 @@ while True:
     3. Remove from List (R)
     4. Exit (E)
   """)
+
+  if whatToDo.capitalize() == "V":
