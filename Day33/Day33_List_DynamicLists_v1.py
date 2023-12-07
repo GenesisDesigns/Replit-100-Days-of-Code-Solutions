@@ -21,3 +21,4 @@ while True:
 
   if whatToDo.capitalize() == "V":
     myToDoList_func()
+  elif whatToDo.capitalize() == "A":  #Add - add to the end
