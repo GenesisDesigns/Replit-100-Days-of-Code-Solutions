@@ -20,3 +20,4 @@ while True:
   """)
 
   if whatToDo.capitalize() == "V":
+    myToDoList_func()
