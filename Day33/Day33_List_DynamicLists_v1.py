@@ -25,3 +25,5 @@ while True:
     addToList = input("What do you want to add?: ")
     myToDoList.append(addToList)
     print()
+    myToDoList_func()
+    print()
