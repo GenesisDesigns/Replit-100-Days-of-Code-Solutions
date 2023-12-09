@@ -27,3 +27,4 @@ while True:
     print()
     myToDoList_func()
     print()
+  elif whatToDo.capitalize() == "R":  #Edit - remove
