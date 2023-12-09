@@ -23,3 +23,5 @@ while True:
     myToDoList_func()
   elif whatToDo.capitalize() == "A":  #Add - add to the end
     addToList = input("What do you want to add?: ")
+    myToDoList.append(addToList)
+    print()
