@@ -31,3 +31,4 @@ while True:
     removeList = input("What do you want to remove?: ")
     print()
     if removeList in myToDoList:
+      myToDoList.remove(removeList)
