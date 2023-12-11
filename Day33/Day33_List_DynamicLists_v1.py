@@ -28,3 +28,4 @@ while True:
     myToDoList_func()
     print()
   elif whatToDo.capitalize() == "R":  #Edit - remove
+    removeList = input("What do you want to remove?: ")
