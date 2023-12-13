@@ -32,3 +32,5 @@ while True:
     print()
     if removeList in myToDoList:
       myToDoList.remove(removeList)
+      print()
+      myToDoList_func()
