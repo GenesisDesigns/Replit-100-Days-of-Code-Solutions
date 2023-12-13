@@ -36,3 +36,4 @@ while True:
       myToDoList_func()
       print()
     else:
+      print("What you want to remove is not in the list")
