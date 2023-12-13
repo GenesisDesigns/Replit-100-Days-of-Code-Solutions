@@ -34,3 +34,5 @@ while True:
       myToDoList.remove(removeList)
       print()
       myToDoList_func()
+      print()
+    else:
