@@ -37,3 +37,5 @@ while True:
       print()
     else:
       print("What you want to remove is not in the list")
+      print()
+      tryAgain = input("Try Again? (Y/N): ")
